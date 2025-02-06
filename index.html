@@ -43,6 +43,8 @@
 
 <body>
 
+
+    <!-- Header Section Start -->
     <div class="header sticky-header section">
         <div class="container-fluid">
             <div class="row align-items-center">
@@ -59,7 +61,110 @@
                 </div>
                 <!-- Logo End -->
 
-                <!-- Menu Start -->
+                <!-- Desktop Menu Start -->
+                <div class="col d-none d-lg-block">
+                    <nav class="main-menu">
+                        <ul>
+                            <li>
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="toronto.html">Toronto</a>
+                            </li>
+                            <li>
+                                <a href="vancouver.html">Vancouver</a>
+                            </li>
+                            <li>
+                                <a href="calgary.html">Calgary</a>
+                            </li>
+                            <li>
+                                <a href="montreal.html">Montreal</a>
+                            </li>
+                            <li>
+                                <a href="about.html">About</a>
+                            </li>
+                            <li>
+                                <a href="contact-us.html">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- Desktop Menu End -->
+
+                <!-- Menu Toggle Button -->
+                <div class="col-auto">
+                    <div class="header-action">
+                        <div class="header-action-item d-lg-none">
+                            <button class="header-action-toggle" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvas-header"><i class="sli-menu"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Menu Toggle Button -->
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Mobile Menu Start -->
+    <div class="offcanvas offcanvas-end" id="offcanvas-header">
+        <div class="offcanvas-header">
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <nav class="mobile-menu">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="toronto.html">Toronto</a>
+                    </li>
+                    <li>
+                        <a href="vancouver.html">Vancouver</a>
+                    </li>
+                    <li>
+                        <a href="calgary.html">Calgary</a>
+                    </li>
+                    <li>
+                        <a href="montreal.html">Montreal</a>
+                    </li>
+                    <li>
+                        <a href="about-us.html">About</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <!-- Mobile Menu Start -->
+
+    <!-- Header Section End -->
+
+
+
+
+
+
+    <div class="header sticky-header section">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+
+             
+                <!-- <div class="col-lg-2 col">
+                    <div class="header-logo">
+                        <a href="index.html">
+                            <img src="assets/images/logo.png" alt="kofi logo">
+                            <img class="light" src="assets/images/logo/logo-light.png" width="125" height="42"
+                                alt="kofi logo">
+                        </a>
+                    </div>
+                </div>
+              
+
+            
                 <div class="col d-none d-lg-block">
                     <nav class="main-menu">
                         <ul>
@@ -89,11 +194,11 @@
                     </nav>
                     <div class="menu-icon"><i class="fa-solid fa-bars"></i></div>
                 </div>
-                
-                <!-- Menu End -->
+
+              
             </div>
         </div>
-    </div>
+    </div> -->
 
     <div class="offcanvas offcanvas-end w-100 bg-dark border-0" id="offcanvas-search">
         <div class="offcanvas-body d-flex align-items-center justify-content-center">
@@ -565,7 +670,8 @@
         <div class="container">
             <div class="newsletter-input-text">
                 <h2> Subscribe to the Coffee Spotz Newsletter</h2>
-                <p>Get the latest on Canada’s independent coffee scene, new café openings, and exclusive deals from local coffee shops.</p>
+                <p>Get the latest on Canada’s independent coffee scene, new café openings, and exclusive deals from
+                    local coffee shops.</p>
                 <div class="newsletter-signup">
                     <input type="text" class="newsletter-signup-input" placeholder="Enter your email">
                     <a href="" class="newsletter-submit-button">Sign Up Now</a>

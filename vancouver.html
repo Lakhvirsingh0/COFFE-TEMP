@@ -43,6 +43,8 @@
 
 <body>
 
+    
+    <!-- Header Section Start -->
     <div class="header sticky-header section">
         <div class="container-fluid">
             <div class="row align-items-center">
@@ -59,7 +61,7 @@
                 </div>
                 <!-- Logo End -->
 
-                <!-- Menu Start -->
+                <!-- Desktop Menu Start -->
                 <div class="col d-none d-lg-block">
                     <nav class="main-menu">
                         <ul>
@@ -87,10 +89,59 @@
                         </ul>
                     </nav>
                 </div>
-                <!-- Menu End -->
+                <!-- Desktop Menu End -->
+
+                <!-- Menu Toggle Button -->
+                <div class="col-auto">
+                    <div class="header-action">
+                        <div class="header-action-item d-lg-none">
+                            <button class="header-action-toggle" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvas-header"><i class="sli-menu"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Menu Toggle Button -->
+
             </div>
         </div>
     </div>
+
+    <!-- Mobile Menu Start -->
+    <div class="offcanvas offcanvas-end" id="offcanvas-header">
+        <div class="offcanvas-header">
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <nav class="mobile-menu">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="toronto.html">Toronto</a>
+                    </li>
+                    <li>
+                        <a href="vancouver.html">Vancouver</a>
+                    </li>
+                    <li>
+                        <a href="calgary.html">Calgary</a>
+                    </li>
+                    <li>
+                        <a href="montreal.html">Montreal</a>
+                    </li>
+                    <li>
+                        <a href="about-us.html">About</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <!-- Mobile Menu Start -->
+
+    <!-- Header Section End -->
 
     <div class="offcanvas offcanvas-end w-100 bg-dark border-0" id="offcanvas-search">
         <div class="offcanvas-body d-flex align-items-center justify-content-center">
@@ -809,8 +860,8 @@
         </div>
     </section>
 
-    <!-- Footer Section Start -->
-    <div class="footer-section section">
+      <!-- Footer Section Start -->
+      <div class="footer-section section">
         <!-- Footer Top Section Start -->
         <div class="footer-top section">
             <div class="container">
@@ -840,6 +891,7 @@
                                 <li><a href="privacy.html">Privacy Policy</a></li>
                                 <li><a href="trems.html">Terms And Conditions</a></li>
                             </ul>
+                        </div>
                     </div>
                     <!-- Footer Widget End -->
 
@@ -870,7 +922,6 @@
     </div>
     <!-- Footer Section End -->
 
-  
     <button class="scroll-to-top"><i class="sli-arrow-up"></i></button>
 
     <!-- JS Vendor, Plugins & Activation Script Files -->
