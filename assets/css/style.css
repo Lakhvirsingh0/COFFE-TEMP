@@ -6005,3 +6005,78 @@ input.newsletter-signup-input {
   padding: 60px 0;
 }
 }
+
+@media(max-width:320px){
+  .newsletter-input-text h2 {
+    font-size: 20px;
+}
+.newsletter-input-text p {
+  font-size: 14px;
+}
+.newsletter-signup h4 {
+  font-size: 20px;
+}
+input.newsletter-signup-input {
+  width: 55%;
+  padding: 6px 12px;
+  font-size: 14px;
+}
+.newsletter-submit-button {
+  background-color: rgb(241 145 2 / 91%);
+  padding: 9px;
+  font-size: 12px;
+  color: #fff;
+}
+.disclaimer-heading p {
+  line-height: 22px;
+}
+.disclaimer-heading h2 {
+  text-align: center;
+  padding: 18px 0;
+}
+img {
+  max-width: 90%;
+}
+.after-banner-heading p {
+  line-height: 22px;
+}
+.independent-text p {
+  line-height: 22px;
+}
+.independent-text {
+  width: 100%;
+  padding: 1rem 10px;
+}
+.grid-items-deal p {
+  line-height: 22px;
+}
+.independent-heading p {
+  line-height: normal;
+}
+.deal-for-canadian-heading h2 {
+  font-size: 25px;
+  line-height: normal;
+}
+.deal-for-canadian-heading p {
+  font-size: 16px;
+  line-height: normal;
+}
+.our-mission-text p {
+  line-height: normal;
+}
+h2.hero-slide-1-title {
+  font-size: 30px;
+}
+a.btn.btn-primary.btn-dark-hover {
+  padding: 10px;
+}
+ul:last-child {
+  line-height: normal;
+}
+.loc-exp-content p {
+  line-height: normal;
+}
+.external-pages-link-btn {
+  padding: 0.625rem 0.25rem;
+}
+}
