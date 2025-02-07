@@ -1275,9 +1275,11 @@ hr {
   margin: 0;
 }
 .offcanvas-body {
-  padding: 30px;
+  padding: 20px;
 }
-
+.offcanvas-header .btn-close {
+  margin-left: auto !important;
+}
 /* Pagination */
 .pagination {
   gap: 12px;
