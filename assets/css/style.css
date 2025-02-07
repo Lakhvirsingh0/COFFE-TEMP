@@ -932,7 +932,7 @@ hr {
   width: 100%;
 }
 .section-padding {
-  padding: 110px 0;
+  padding: 80px 0;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .section-padding {
@@ -5328,7 +5328,7 @@ textarea.form-field:focus {
 
 /* after-banner text */
 .after-banner {
-  padding: 110px 0;
+  padding: 60px 0;
 }
 .after-banner-heading p {
   font-size: 16px;
@@ -5366,15 +5366,16 @@ input.newsletter-signup-input {
 }
 .newsletter-submit-button {
   background-color: rgb(241 145 2 / 91%);
-  padding: 10px;
+  padding: 12px;
   font-size: 16px;
   color: #fff;
+  margin: 15px;
 }
 .newsletter-submit-button:hover {
   color: #000;
 }
 .disclaimer {
-  padding: 80px 0;
+  padding: 60px 0;
 }
 .disclaimer-heading h2 {
   text-align: center;
@@ -5446,6 +5447,10 @@ input.newsletter-signup-input {
   flex-direction: column;
   align-items: start;
   gap: 0.625rem;
+}
+.py-5 {
+  padding-top: 1rem!important;
+  padding-bottom: 2rem!important;
 }
 
 .external-pages-link-btn {
@@ -5661,7 +5666,7 @@ span.heading-like {
 
  /* Deals for Canadians start --> */
  .deals.for.canadian {
-  padding: 80px 0;
+  padding: 60px 0;
   overflow: hidden;
 }
 .deal-for-canadian-heading {
@@ -5731,6 +5736,10 @@ span.heading-like {
   text-align: center;
 }
 
+.what_makes_wrap {
+  padding: 40px;
+}
+
 
 .deal-view{
      position: absolute;
@@ -5777,7 +5786,6 @@ span.heading-like {
 /* your coffee shop css start */
 .text-center {
   text-align: center!important;
-  padding: 30px 0;
 }
 .what-makes-contact {
   height: 37.625rem;
@@ -5842,12 +5850,12 @@ z-index: -1;
 /* term and condition css start */
 
 
-.terms-heading h3 {
+.terms-heading h2 {
   padding-top: 20px;
 }
-.terms-heading p {
+/* .terms-heading p {
   padding: 10px 0;
-}
+} */
 .terms-heading ul li{
   list-style-type: disc;
 }
