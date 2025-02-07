@@ -6038,6 +6038,22 @@ input.newsletter-signup-input {
 }
 }
 
+
+
+@media(max-width:375px){
+
+  .hero-slide-1-title {
+    font-size: 30px;
+}
+input.newsletter-signup-input {
+  width: 45%;
+  padding: 6px 12px;
+  font-size: 14px;
+}
+}
+
+
+
 @media(max-width:320px){
   .newsletter-input-text h2 {
     font-size: 20px;
