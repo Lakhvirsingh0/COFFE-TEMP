@@ -181,7 +181,7 @@ hr {
   -webkit-transition: all 0.4s ease 0s;
   transition: all 0.4s ease 0s;
   background-color: #fff;
-  padding: 15px 0;
+  padding: 8px 0;
 }
 @media only screen and (max-width: 767px) {
   .header {
@@ -5393,7 +5393,7 @@ input.newsletter-signup-input {
 
 /* Home Banner CSS Start */
 .home_banner {
-  height: 30.625rem;
+  height: 27.625rem;
   background-image: url(../images/home_banner_image.jpg);
   background-size: cover;
   background-position: center;
@@ -5740,6 +5740,7 @@ span.heading-like {
 
 .what_makes_wrap {
   padding: 40px;
+  max-width: 770px;
 }
 
 
