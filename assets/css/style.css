@@ -188,6 +188,22 @@ hr {
     min-height: auto;
   }
 }
+.header.sticky-header.section {
+  position: sticky;
+  top: 0;
+  -webkit-animation-name: headerSticky;
+          animation-name: headerSticky;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0;
+          animation-delay: 0;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+}
 .header.is-sticky {
   position: sticky;
   top: 0;
