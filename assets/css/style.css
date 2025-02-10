@@ -6005,6 +6005,9 @@ input.newsletter-signup-input {
 .inq-text {
   padding: 50px 10px;
 }
+.banner_box h1 {
+  font-size: 1.8125rem;
+}
 
 }
 
@@ -6036,6 +6039,12 @@ input.newsletter-signup-input {
 .banner_box h1 {
   font-size: 1.8125rem;
 }
+.banner_box h1 {
+  font-size: 1.8125rem;
+}
+.hero-slide-1-title {
+  font-size: 30px;
+}
 }
 
 
@@ -6049,6 +6058,9 @@ input.newsletter-signup-input {
   width: 45%;
   padding: 6px 12px;
   font-size: 14px;
+}
+.hero-slide-1-title {
+  font-size: 30px;
 }
 }
 
@@ -6126,5 +6138,8 @@ ul:last-child {
 }
 .external-pages-link-btn {
   padding: 0.625rem 0.25rem;
+}
+.hero-slide-1-title {
+  font-size: 25px;
 }
 }
